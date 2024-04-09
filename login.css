@@ -1,0 +1,144 @@
+
+body {
+    /* font-family: sans-serif; */
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+}
+
+.label-placeholder{
+    font-color: #585858;
+    background-color: #E1EEDD;
+    border: 2px solid #000000;
+    font-size: 1rem;
+}
+#username,
+#password,
+#email,
+#repassword {
+    border: 2px solid #E1EEDD; /* Red border with 2px thickness */
+}
+
+input[type= 'text'],
+input[type='password']{
+    border: 2px solid #ff0000;
+}
+
+.login-container {
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 300px;
+    font-family: "Poppins", sans-serif;
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #4E8A40;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    padding-right: 20px;
+    margin-right: 50px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+.role-checkboxes {
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 3px 0px 12px 0px;
+
+}
+.role-checkbox > .label-checkbox{
+    margin: 10px;
+}
+input[type='radio'] {
+    accent-color: #4E8A40;
+}
+.role-checkbox input[type="checkbox"] {
+    margin-right: 5px;
+}
+.role-checkbox label {
+    margin-bottom: 0;
+}
+button {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #4E8A40;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #75bb65;
+}
+p {
+    margin-top: 15px;
+    text-align: center;
+}
+p a {
+    color: #4E8A40;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
+.fruits-image {
+    position: absolute;
+    top: 400px;
+    left: 53px;
+    width: 730px;
+    height: 487px;
+}
+.logo-image{
+    position: absolute;
+    top: 150px;
+    left: 243px;
+    width: 330px;
+    height: 250px;
+    border-radius: 20px;
+}
+.paragraph1{
+    padding-left: 116px;
+    padding-bottom: 30px;
+}
+.paragraph2{
+    padding-left: 139px;
+    padding-bottom: 30px;
+}
+/* .icons{
+    width: 10%;
+    padding-bottom: 300px;
+    align-items: flex-end;
+} */
+.signuplbl{
+    padding-left: 160px;
+}

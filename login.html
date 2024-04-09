@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <h1>LOGIN</h1>
+        <div class="paragraph2">
+            <p1>Welcome Back</p1>
+        </div>
+        <form id="login-form" action="#">
+            <div class="input-group">
+                <!-- <label for="username">Username</label> -->
+                <input type="text" id="username" class="label-placeholder" placeholder="Username" ="username" required>
+            </div>
+            <div class="input-group">
+                <!-- <label for="password">Password</label> -->
+                <input type="password" id="password" class="label-placeholder" placeholder="Password" name="password" required>
+            </div>
+            <label>Login as</label>
+            <br>
+            <div class="role-checkboxes">
+                <div class="role-checkbox">
+                    <!-- <img src="profile.svg" alt="usericon" class="icons"> -->
+                    <input type="radio" id="admin" name="role" value="admin">
+                    <label id="label-checkbox" for="admin">Admin</label>
+                </div>
+                <div class="role-checkbox">
+                    <input type="radio" id="farmer" name="role" value="farmer">
+                    <label id="label-checkbox" for="farmer">Farmer</label>
+                </div>
+                <div class="role-checkbox">
+                    <input type="radio" id="buyer" name="role" value="buyer">
+                    <label id="label-checkbox" for="buyer">Buyer</label>
+                </div>
+            </div>
+            <button type="submit" style="font-size: 20px; letter-spacing: 3px;">Login</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+    <img src="fruits.png" alt="Fruits" class="fruits-image">
+    <!-- <img src="Logo.png" alt="Logo" class="logo-image"> -->
+</body>
+</html>
