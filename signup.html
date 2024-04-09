@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <h1>SIGNUP</h1>
+        <div class="paragraph1">
+            <p1>Create your account</p1>
+        </div>
+        <form id="login-form" action="#">
+            <div class="input-group">
+                <input type="text" id="username" class="label-placeholder" placeholder="Username" name="username" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" class="label-placeholder" placeholder="Email" name="email" required>
+            </div>
+            <div class="input-group">
+
+                <input type="password" id="password" class="label-placeholder" placeholder="Password" name="password" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="repassword" class="label-placeholder" placeholder="Re-Password" name="repassword" required>
+            </div>
+            <label class="signuplbl">Sign Up as</label>
+            <br>
+            <div class="role-checkboxes">
+                <div class="role-checkbox">
+                    <input type="radio" id="admin" name="role" value="admin">
+                    <label for="admin">Admin</label>
+                </div>
+                <div class="role-checkbox">
+                    <input type="radio" id="farmer" name="role" value="farmer">
+                    <label for="farmer">Farmer</label>
+                </div>
+                <div class="role-checkbox">
+                    <input type="radio" id="buyer" name="role" value="buyer">
+                    <label for="buyer">Buyer</label>
+                </div>
+            </div>
+            <button type="submit" style="font-size: 20px; letter-spacing: 3px;">Sign Up</button>
+        </form>
+        <p>Already Have an account? <a href="login.html">Login</a></p>
+    </div>
+    <img src="fruits.png" alt="Fruits" class="fruits-image">
+</body>
+</html>
